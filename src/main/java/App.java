@@ -3,7 +3,7 @@ public class App {
     public double sqrt(double x) {
         return Math.sqrt(x);
     }
-
+//
     public double factorial(double x) {
         if (x < 0) throw new IllegalArgumentException("Negative not allowed");
 

@@ -9,7 +9,7 @@ pipeline {
             }
         }
 
-        stage('Build with Maven') {
+        stage('Build Maven Project') {
             steps {
                 sh 'mvn clean package'
             }
@@ -17,21 +17,22 @@ pipeline {
 
         stage('Build Docker Image') {
             steps {
-                sh 'docker build -t pulkitgo/calculator .'
+                sh 'docker build -t mt2025096/scientific-calculator .'
             }
         }
 
         stage('Push Docker Image') {
             steps {
-                withCredentials([usernamePassword(credentialsId: 'dockerhub',
-                usernameVariable: 'USER',
-                passwordVariable: 'PASS')]) {
+                withCredentials([usernamePassword(
+                    credentialsId: 'dockerhub',
+                    usernameVariable: 'USER',
+                    passwordVariable: 'PASS'
+                )]) {
 
                     sh 'docker login -u $USER -p $PASS'
-                    sh 'docker push pulkitgo/calculator'
+                    sh 'docker push mt2025096/scientific-calculator'
                 }
             }
         }
-
     }
 }

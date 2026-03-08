@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Clone Repository') {
             steps {
-                // Use the SSH URL if Jenkins has the SSH key configured
+
                 git branch: 'main', url: 'git@github.com:pulkitgo/Calculator.git'
             }
             post {

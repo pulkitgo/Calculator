@@ -8,9 +8,6 @@
       community.docker.docker_container:
         name: scientific-calculator
         image: mt2025096/scientific-calculator:latest
-        interactive: yes
         tty: yes
         state: started
         restart_policy: no
-        ports:
-          - "8081:8080"

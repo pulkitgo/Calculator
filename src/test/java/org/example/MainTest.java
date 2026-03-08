@@ -8,10 +8,12 @@ public class MainTest
     Main calc = new Main();
 
 
+    //deliberate fail
+    /*
     @Test
     void testDeliberate() {
         assertEquals(2, calc.factorial(0));
-    }
+    }*/
 
 
 

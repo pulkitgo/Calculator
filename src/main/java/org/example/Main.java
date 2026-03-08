@@ -32,6 +32,6 @@ public class Main
         System.out.println("sqrt(16) = " + calculator.sqrt(16));
         System.out.println("factorial(5) = " + calculator.factorial(5));
         System.out.println("ln(10) = " + calculator.ln(10));
-        System.out.println("power(2,3) = " + calculator.power(2,3))
+        System.out.println("power(2,3) = " + calculator.power(2,3));
     }
 }

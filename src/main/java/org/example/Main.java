@@ -1,7 +1,6 @@
-package org.example;
 
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
+//email trigger test comment
+package org.example;
 public class Main
 {
     public double sqrt ( double x){
@@ -17,12 +16,10 @@ public class Main
         }
         return res;
     }
-
     public double ln ( double x){
         if (x <= 0) throw new IllegalArgumentException("x must be positive");
         return Math.log(x);
     }
-
     public double power ( double x, double b){
         return Math.pow(x, b);
     }

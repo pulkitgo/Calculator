@@ -5,10 +5,7 @@ target/
 .kotlin
 
 ### IntelliJ IDEA ###
-.idea/modules.xml
-.idea/jarRepositories.xml
-.idea/compiler.xml
-.idea/libraries/
+.idea
 *.iws
 *.iml
 *.ipr
@@ -37,3 +34,7 @@ build/
 
 ### Mac OS ###
 .DS_Store
+
+AAAAC3NzaC1lZDI1NTE5AAAAIHv73hJZR2G9Sndv9IEdrd5bMPzUy3qP0z09hm6nYdme
+
+AAAAC3NzaC1lZDI1NTE5AAAAIHv73hJZR2G9Sndv9IEdrd5bMPzUy3qP0z09hm6nYdme.pub

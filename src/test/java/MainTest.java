@@ -6,7 +6,7 @@ public class MainTest
 {
     Main calc = new Main();
 //
-    // √x
+    // √x//
     @Test
     void testSquareRoot() {
         assertEquals(5.0, calc.sqrt(25), 0.0001);

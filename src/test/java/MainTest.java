@@ -5,7 +5,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 public class MainTest
 {
     Main calc = new Main();
-/////
+//
     // √x
     @Test
     void testSquareRoot() {

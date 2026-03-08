@@ -1,0 +1,14 @@
+---
+- name: Deploy Scientific Calculator Container
+  hosts: servers
+
+  tasks:
+
+    - name: Run container from DockerHub
+      community.docker.docker_container:
+        name: scientific-calculator
+        image: mt2025096/scientific-calculator:latest
+        state: started
+        restart_policy: no
+        ports:
+          - "8081:8080"

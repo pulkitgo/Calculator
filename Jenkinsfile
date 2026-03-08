@@ -34,4 +34,11 @@ pipeline {
             }
         }
     }
+
+    post{
+        success {
+            mail bcc: '', body: 'pipeline completed all stages successfully', cc: '', from: 'gpulkit07@gmail.com', replyTo: '', subject: 'pipeline successful', to: 'pulkitg666@gmail.com'
+        }
+    }
+
 }

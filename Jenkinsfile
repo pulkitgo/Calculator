@@ -37,7 +37,7 @@ pipeline {
 
         stage('Build Docker Image') {
             steps {
-                sh 'docker build -t mt2025096/scientific-calculator .'
+                sh 'docker build -t mt2025096/scientific-calculator:${BUILD_NUMBER}'
             }
             post {
                 failure {
@@ -55,7 +55,8 @@ pipeline {
             steps {
                 withCredentials([usernamePassword(credentialsId: 'dockerhub', usernameVariable: 'USER', passwordVariable: 'PASS')]) {
                     sh 'docker login -u $USER -p $PASS'
-                    sh 'docker push mt2025096/scientific-calculator'
+                    sh 'docker push mt2025096/scientific-calculator:${BUILD_NUMBER}'
+                    sh 'docker push mt2025096/scientific-calculator:latest'
                 }
             }
             post {

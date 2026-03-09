@@ -85,9 +85,13 @@ pipeline {
                 }
             }
         }
+
     }
 
     post {
+        always {
+            cleanWs()
+        }
         success {
             mail(
                 to: 'pulkitg666@gmail.com',

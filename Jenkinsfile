@@ -54,9 +54,12 @@ pipeline {
         stage('Push Docker Image') {
             steps {
                 withCredentials([usernamePassword(credentialsId: 'dockerhub', usernameVariable: 'USER', passwordVariable: 'PASS')]) {
-                    sh 'docker login -u $USER -p $PASS'
-                    sh 'docker push mt2025096/scientific-calculator:${BUILD_NUMBER}'
-                    sh 'docker push mt2025096/scientific-calculator:latest'
+                    sh '''
+                    docker login -u $USER -p $PASS
+                    docker tag mt2025096/scientific-calculator:${BUILD_NUMBER} mt2025096/scientific-calculator:latest
+                    docker push mt2025096/scientific-calculator:${BUILD_NUMBER}
+                    docker push mt2025096/scientific-calculator:latest
+                    '''
                 }
             }
             post {

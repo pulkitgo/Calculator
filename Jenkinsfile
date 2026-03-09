@@ -37,7 +37,7 @@ pipeline {
 
         stage('Build Docker Image') {
             steps {
-                sh 'docker build -t mt2025096/scientific-calculator:${BUILD_NUMBER}'
+                sh 'docker build -t mt2025096/scientific-calculator:${BUILD_NUMBER} .'
             }
             post {
                 failure {

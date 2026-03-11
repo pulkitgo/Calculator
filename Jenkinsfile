@@ -57,7 +57,7 @@ pipeline {
                     sh '''
                     docker login -u $USER -p $PASS
                     docker tag mt2025096/scientific-calculator:${BUILD_NUMBER} mt2025096/scientific-calculator:latest
-                    docker push mt2025096/scientific-calculator:${BUILD_NUMBER}
+                    docker push mt2025096/scientific-calculator:${BUILD_NUMBER
                     docker push mt2025096/scientific-calculator:latest
                     '''
                 }

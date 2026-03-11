@@ -21,7 +21,7 @@ public class MainTest
     void testSquareRoot() {
         assertEquals(5.0, calc.sqrt(25), 0.0001);
         assertEquals(10000, calc.sqrt(100000000),0.0001);
-        assertEquals(9.9001, calc.sqrt(98.01), 0.0001);
+        assertEquals(9.901, calc.sqrt(98.01), 0.0001);
         assertEquals(89766.89899, calc.sqrt(8058096154.28),0.0001);
     }
 

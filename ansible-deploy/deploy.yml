@@ -10,4 +10,4 @@
         image: mt2025096/scientific-calculator:latest
         tty: yes
         state: started
-        restart_policy: always
+        restart_policy: once

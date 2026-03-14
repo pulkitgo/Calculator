@@ -1,0 +1,350 @@
+[33mcommit 6858f9ea392866ebaa8580deeb0e7462845ba433[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m
+Author: pulkitgo <Pulkit.Goyal@iiitb.ac.in>
+Date:   Sat Mar 14 13:46:59 2026 +0530
+
+    checking printing problem in MainJava2
+
+[33mcommit eac8f0af2f370d1eeef0f4c97e52f2bd19d679fa[m
+Author: pulkitgo <Pulkit.Goyal@iiitb.ac.in>
+Date:   Sat Mar 14 13:38:03 2026 +0530
+
+    checking printing problem in MainJava
+
+[33mcommit eaf44bea2d31e2ac60c522a37fbc41e516619db9[m
+Author: pulkitgo <Pulkit.Goyal@iiitb.ac.in>
+Date:   Sat Mar 14 13:35:42 2026 +0530
+
+    check MainTest while putting wrong answer.
+
+[33mcommit d5a7d46cf585903d009a9959adfb75e25e2d4b78[m
+Author: pulkitgo <Pulkit.Goyal@iiitb.ac.in>
+Date:   Sat Mar 14 13:20:10 2026 +0530
+
+    checking MainJava file code5
+
+[33mcommit 754f58564685019f1825d39ca9be8e17ef5a1757[m
+Author: pulkitgo <Pulkit.Goyal@iiitb.ac.in>
+Date:   Sat Mar 14 13:15:16 2026 +0530
+
+    checking MainJava file code4
+
+[33mcommit 3bef0d2bf758688c9cac36bd3704a234c688b5c3[m
+Author: pulkitgo <Pulkit.Goyal@iiitb.ac.in>
+Date:   Sat Mar 14 12:31:08 2026 +0530
+
+    checking MainJava file code3
+
+[33mcommit 5f42171090bd1e6aa29a87d67edc8f90e153b384[m
+Author: pulkitgo <Pulkit.Goyal@iiitb.ac.in>
+Date:   Sat Mar 14 12:24:36 2026 +0530
+
+    checking MainJava file code2
+
+[33mcommit 2e7748b58e09ab77c3d0aed330e7cc3f6f22c75c[m
+Author: pulkitgo <Pulkit.Goyal@iiitb.ac.in>
+Date:   Sat Mar 14 12:19:22 2026 +0530
+
+    checking MainJava file code
+
+[33mcommit 30110d9d19b4f8efcbbb347c150706c91aa0d64f[m
+Author: pulkitgo <Pulkit.Goyal@iiitb.ac.in>
+Date:   Sat Mar 14 11:52:20 2026 +0530
+
+    retesting docker2
+
+[33mcommit 750bf2e41ab719cd547cd43d32de8d65f8c22a0d[m
+Author: pulkitgo <Pulkit.Goyal@iiitb.ac.in>
+Date:   Sat Mar 14 11:50:22 2026 +0530
+
+    docker failure1
+
+[33mcommit f5c5ba5059500fd1ac7b80d9e26116cdd3b634e8[m
+Author: pulkitgo <Pulkit.Goyal@iiitb.ac.in>
+Date:   Thu Mar 12 11:02:13 2026 +0530
+
+    checking restart 1
+
+[33mcommit 93d8c8392524c20dfcdda0054d91204dc5ace3bd[m
+Author: pulkitgo <Pulkit.Goyal@iiitb.ac.in>
+Date:   Thu Mar 12 10:59:05 2026 +0530
+
+    checking restart
+
+[33mcommit 8aec54459c7fa36c16cd922b4f89ea3afaee2d95[m
+Author: pulkitgo <Pulkit.Goyal@iiitb.ac.in>
+Date:   Wed Mar 11 19:27:43 2026 +0530
+
+    .
+
+[33mcommit c9df34f5ed45f1ef222bd6285dda90a1968fd8ed[m
+Author: pulkitgo <Pulkit.Goyal@iiitb.ac.in>
+Date:   Wed Mar 11 19:26:33 2026 +0530
+
+    } missing in push
+
+[33mcommit d132f644d50098fed3487f8d8713a624e0f987dd[m
+Author: pulkitgo <Pulkit.Goyal@iiitb.ac.in>
+Date:   Wed Mar 11 19:23:08 2026 +0530
+
+    9.901 vs 9.9001
+
+[33mcommit d5f137deff396f6150e93314046c4d110e706bde[m
+Author: pulkitgo <Pulkit.Goyal@iiitb.ac.in>
+Date:   Wed Mar 11 19:20:42 2026 +0530
+
+    checking on minute error
+
+[33mcommit d22b63a5ccff3f044f05b7382081a09eecf94c45[m
+Author: pulkitgo <Pulkit.Goyal@iiitb.ac.in>
+Date:   Wed Mar 11 19:10:28 2026 +0530
+
+    checking if running
+
+[33mcommit 1019183e19c053cec8a801de35ac54b2fedb17bd[m
+Author: pulkitgo <Pulkit.Goyal@iiitb.ac.in>
+Date:   Mon Mar 9 11:00:18 2026 +0530
+
+    stoping overwriting in dokcerhub3
+
+[33mcommit 0611e01d2fc0f19cc3143a4cf4e571baec6a68f0[m
+Author: pulkitgo <Pulkit.Goyal@iiitb.ac.in>
+Date:   Mon Mar 9 10:44:10 2026 +0530
+
+    stoping overwriting in dokcerhub2
+
+[33mcommit 92c0f807fef5bafa4643201062e31a91351f434d[m
+Author: pulkitgo <Pulkit.Goyal@iiitb.ac.in>
+Date:   Mon Mar 9 10:41:38 2026 +0530
+
+    stoping overwriting in dokcerhub
+
+[33mcommit aa4c7e8487e3394b8d6e9f550465a7fd859c6fe1[m
+Author: pulkitgo <Pulkit.Goyal@iiitb.ac.in>
+Date:   Mon Mar 9 10:06:39 2026 +0530
+
+    make pulled image kept running 1
+
+[33mcommit 67de588f65d2d93421b7e72e5a0755168c32783a[m
+Author: pulkitgo <Pulkit.Goyal@iiitb.ac.in>
+Date:   Mon Mar 9 00:42:45 2026 +0530
+
+    full test 1
+
+[33mcommit bdeb8e5eb375503a77b49d8da7c8c3cb5ddc611b[m
+Author: pulkitgo <Pulkit.Goyal@iiitb.ac.in>
+Date:   Mon Mar 9 00:35:04 2026 +0530
+
+    unit test failure email notification test 2
+
+[33mcommit efd89a14354072f23249207eff3067149a1a7471[m
+Author: pulkitgo <Pulkit.Goyal@iiitb.ac.in>
+Date:   Mon Mar 9 00:31:14 2026 +0530
+
+    unit test failure email notification test
+
+[33mcommit bbbf6d9ef1d85454461069c0137875f9a81d831e[m
+Author: pulkitgo <Pulkit.Goyal@iiitb.ac.in>
+Date:   Mon Mar 9 00:17:25 2026 +0530
+
+    jenkins email notification test 1
+
+[33mcommit 345458ea1c20d663f06f364cf11dd1c18fe804af[m
+Author: pulkitgo <Pulkit.Goyal@iiitb.ac.in>
+Date:   Mon Mar 9 00:07:40 2026 +0530
+
+    contianer run test1
+
+[33mcommit 08a423f3bfd16c31e8032451e23d4a245d448931[m
+Author: pulkitgo <Pulkit.Goyal@iiitb.ac.in>
+Date:   Mon Mar 9 00:01:52 2026 +0530
+
+    email trigger test 2
+
+[33mcommit ac574684ef37c5ab4647e4ffcc3157dbecbd2c34[m
+Author: pulkitgo <Pulkit.Goyal@iiitb.ac.in>
+Date:   Sun Mar 8 23:51:47 2026 +0530
+
+    email trigger test1
+
+[33mcommit e53866fe4bcf963989d29a7bc00b4a6e8b805347[m
+Merge: 1187090 f7a2132
+Author: pulkitgo <Pulkit.Goyal@iiitb.ac.in>
+Date:   Sun Mar 8 07:09:11 2026 +0530
+
+    Merge branch 'main' of github.com:pulkitgo/Calculator
+
+[33mcommit 11870904bb3cafca68bae127f49dd83a12519538[m
+Author: pulkitgo <Pulkit.Goyal@iiitb.ac.in>
+Date:   Sun Mar 8 07:08:47 2026 +0530
+
+    last commit
+
+[33mcommit f7a21324b3cfcc778593677e8b029825c5b04c29[m
+Author: Pulkit goyal <222521487+pulkitgo@users.noreply.github.com>
+Date:   Sun Mar 8 06:13:15 2026 +0530
+
+    Update MainTest.java
+
+[33mcommit d60130221eeff0d35d79dcf7b630813bb09cc121[m
+Author: Pulkit goyal <222521487+pulkitgo@users.noreply.github.com>
+Date:   Sun Mar 8 06:12:09 2026 +0530
+
+    Fix expected value in sqrt test case
+
+[33mcommit a45449c1e6beb12c2f254042d0a5bf5d67539852[m
+Author: Pulkit goyal <222521487+pulkitgo@users.noreply.github.com>
+Date:   Sun Mar 8 06:11:18 2026 +0530
+
+    Update Main.java
+
+[33mcommit d620c29a53f197d00f66d3f9742868e8959041af[m
+Author: Pulkit goyal <222521487+pulkitgo@users.noreply.github.com>
+Date:   Sun Mar 8 06:10:36 2026 +0530
+
+    Update Main.java
+
+[33mcommit 5f89f3f98f5cde92462bdc408a201648696bbf2f[m
+Author: Pulkit goyal <222521487+pulkitgo@users.noreply.github.com>
+Date:   Sun Mar 8 06:08:58 2026 +0530
+
+    Update MainTest.java
+
+[33mcommit 27c2fd67c442382a35b65766d568d841e3e0e953[m
+Author: Pulkit goyal <222521487+pulkitgo@users.noreply.github.com>
+Date:   Sun Mar 8 06:08:09 2026 +0530
+
+    Update MainTest.java
+
+[33mcommit ba9e4acc79fdbab9820fb074b854a74a0cea1beb[m
+Author: Pulkit goyal <222521487+pulkitgo@users.noreply.github.com>
+Date:   Sun Mar 8 06:07:07 2026 +0530
+
+    Update MainTest.java
+
+[33mcommit c72c5b217a8d1716f971ef42534d6c624571a75b[m
+Author: Pulkit goyal <222521487+pulkitgo@users.noreply.github.com>
+Date:   Sun Mar 8 05:59:33 2026 +0530
+
+    Update MainTest.java
+
+[33mcommit d4ff9b6672c568b043ecc733772e4a37fe0bada7[m
+Author: Pulkit goyal <222521487+pulkitgo@users.noreply.github.com>
+Date:   Sun Mar 8 05:50:20 2026 +0530
+
+    Update MainTest.java
+
+[33mcommit dd8d5db56d3510eafc13d11812360b91bb4b6303[m
+Merge: 57f5aeb 2da8693
+Author: pulkitgo <Pulkit.Goyal@iiitb.ac.in>
+Date:   Sun Mar 8 05:47:24 2026 +0530
+
+    Merge branch 'main' of github.com:pulkitgo/Calculator
+
+[33mcommit 57f5aebedf8c59f9c81a8763d56b2f494c712468[m
+Author: pulkitgo <Pulkit.Goyal@iiitb.ac.in>
+Date:   Sun Mar 8 05:42:42 2026 +0530
+
+    ansible1
+
+[33mcommit 2b4dafd7387fcda3342bda43e2caacd4216b30ec[m
+Author: pulkitgo <Pulkit.Goyal@iiitb.ac.in>
+Date:   Sun Mar 8 05:41:19 2026 +0530
+
+    ansible
+
+[33mcommit 2da869300ab422a41f0cd696016758b9560dfd7b[m
+Author: Pulkit goyal <222521487+pulkitgo@users.noreply.github.com>
+Date:   Sun Mar 8 05:07:35 2026 +0530
+
+    Add comment placeholder in MainTest.java
+
+[33mcommit 0e68b2b16b5a9b8610c50b5a78c66a9c14aa91ef[m
+Author: pulkitgo <Pulkit.Goyal@iiitb.ac.in>
+Date:   Sun Mar 8 04:47:36 2026 +0530
+
+    docker push and run
+
+[33mcommit 6754cfc718eedbabe4bb77b7719fbaa28c0cb4bb[m
+Author: pulkitgo <Pulkit.Goyal@iiitb.ac.in>
+Date:   Sun Mar 8 02:08:01 2026 +0530
+
+    second
+
+[33mcommit 0aacffde138b6288241ae561b0a81039d0da2705[m
+Merge: 96579ac c99c92f
+Author: pulkitgo <Pulkit.Goyal@iiitb.ac.in>
+Date:   Sun Mar 8 01:49:57 2026 +0530
+
+    Merge branch 'main' of github.com:pulkitgo/Calculator
+
+[33mcommit 96579acc95410fdcae7d30d87e0898f329a51dd9[m
+Author: pulkitgo <Pulkit.Goyal@iiitb.ac.in>
+Date:   Sun Mar 8 01:18:39 2026 +0530
+
+    first
+
+[33mcommit c99c92f76e0a0a87335b0c7b0f42b550ed7b836e[m
+Author: Pulkit goyal <222521487+pulkitgo@users.noreply.github.com>
+Date:   Sat Mar 7 22:56:31 2026 +0530
+
+    Delete settings.gradle.kts
+
+[33mcommit e9033ad77cb285dd994c4b02123c917201572253[m
+Author: Pulkit goyal <222521487+pulkitgo@users.noreply.github.com>
+Date:   Sat Mar 7 22:56:22 2026 +0530
+
+    Delete gradlew.bat
+
+[33mcommit 84b6e5fecd21b9ce62c36249b96c23d4345c689e[m
+Author: Pulkit goyal <222521487+pulkitgo@users.noreply.github.com>
+Date:   Sat Mar 7 22:56:11 2026 +0530
+
+    Delete gradlew
+
+[33mcommit 98d134068a2c3daa4b50631beab6bda840a069ce[m
+Author: Pulkit goyal <222521487+pulkitgo@users.noreply.github.com>
+Date:   Sat Mar 7 22:56:01 2026 +0530
+
+    Delete build.gradle.kts
+
+[33mcommit 683157affd152ccd6522f5cc3911570a34f9734a[m
+Author: Pulkit goyal <222521487+pulkitgo@users.noreply.github.com>
+Date:   Sat Mar 7 22:55:49 2026 +0530
+
+    Delete src directory
+
+[33mcommit bfc5247ce848fe284a7cdb69d1360161d0d3eef9[m
+Author: Pulkit goyal <222521487+pulkitgo@users.noreply.github.com>
+Date:   Sat Mar 7 22:55:36 2026 +0530
+
+    Delete gradle/wrapper directory
+
+[33mcommit c68084be01402446f7d7e0ad5afa26456152ae4b[m
+Author: Pulkit goyal <222521487+pulkitgo@users.noreply.github.com>
+Date:   Sat Mar 7 22:55:25 2026 +0530
+
+    Delete build directory
+
+[33mcommit ec5a9a7376bc36f969a8801758883f833500e8c7[m
+Author: Pulkit goyal <222521487+pulkitgo@users.noreply.github.com>
+Date:   Sat Mar 7 18:46:28 2026 +0530
+
+    Update App.java
+
+[33mcommit 4f83e6f17be2593949b3c4bf29097a7a5ab97312[m
+Author: Pulkit goyal <222521487+pulkitgo@users.noreply.github.com>
+Date:   Sat Mar 7 11:52:53 2026 +0530
+
+    Add files via upload
+
+[33mcommit fca56b9054072e9f8a59a63cb7e5c14012af56a0[m
+Author: Pulkit goyal <222521487+pulkitgo@users.noreply.github.com>
+Date:   Sat Mar 7 11:49:58 2026 +0530
+
+    Delete Calculator directory
+
+[33mcommit ec978a1a7c512b3b98a5336451f2d040455748d4[m
+Author: Pulkit goyal <222521487+pulkitgo@users.noreply.github.com>
+Date:   Sat Mar 7 01:44:33 2026 +0530
+
+    Add files via upload

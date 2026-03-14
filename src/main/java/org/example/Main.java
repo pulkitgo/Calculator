@@ -28,7 +28,7 @@ public class Main {
     public double power(double x, double b) {
         return Math.pow(x, b);
     }
-
+//
     public static void main(String[] args) {
         Main calculator = new Main();
         System.out.println("Choose the operator:");

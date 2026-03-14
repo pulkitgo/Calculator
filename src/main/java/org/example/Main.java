@@ -31,8 +31,9 @@ public class Main {
 //
     public static void main(String[] args) {
         Main calculator = new Main();
-        Scanner scanner = new Scanner(System.in);
+
         while(true) {
+            Scanner scanner = new Scanner(System.in);
             System.out.println("Choose the operator:");
             System.out.println("1. Square Root");
             System.out.println("2. Factorial");
@@ -58,6 +59,7 @@ public class Main {
                     System.out.println("Invalid operator");
                     break;
             }
+
             scanner.close();
         }
     }

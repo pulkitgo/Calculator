@@ -31,14 +31,14 @@ public class Main {
 //
     public static void main(String[] args) {
         Main calculator = new Main();
+        Scanner scanner = new Scanner(System.in);
+        int operator = scanner.nextInt();
+        double x = scanner.nextDouble();
         System.out.println("Choose the operator:");
         System.out.println("1. Square Root");
         System.out.println("2. Factorial");
         System.out.println("3. Natural Log");
         System.out.println("4. Power");
-        Scanner scanner = new Scanner(System.in);
-        int operator = scanner.nextInt();
-        double x = scanner.nextDouble();
         switch (operator) {
             case 1:
                 System.out.println(calculator.sqrt(x));

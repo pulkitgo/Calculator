@@ -30,6 +30,9 @@ public class Main {
     }
 //
     public static void main(String[] args) {
+        try {
+            Thread.sleep(5000);
+        } catch (InterruptedException e) {}
         Main calculator = new Main();
         System.out.println("Choose the operator:");
         System.out.println("1. Square Root");

@@ -29,38 +29,41 @@ public class Main {
         return Math.pow(x, b);
     }
 //
-    public static void main(String[] args) {
-        Main calculator = new Main();
+public static void main(String[] args) {
+    Main calculator = new Main();
+    Scanner scanner = new Scanner(System.in);
 
-        while(true) {
-            Scanner scanner = new Scanner(System.in);
-            System.out.println("Choose the operator:");
-            System.out.println("1. Square Root");
-            System.out.println("2. Factorial");
-            System.out.println("3. Natural Log");
-            System.out.println("4. Power");
-            int operator = scanner.nextInt();
-            double x = scanner.nextDouble();
-            switch (operator) {
-                case 1:
-                    System.out.println(calculator.sqrt(x));
-                    break;
-                case 2:
-                    System.out.println(calculator.factorial(x));
-                    break;
-                case 3:
-                    System.out.println(calculator.ln(x));
-                    break;
-                case 4:
-                    double b = scanner.nextDouble();
-                    System.out.println(calculator.power(x, b));
-                    break;
-                default:
-                    System.out.println("Invalid operator");
-                    break;
-            }
+    while (true) {
+        System.out.println("Choose the operator:");
+        System.out.println("1. Square Root");
+        System.out.println("2. Factorial");
+        System.out.println("3. Natural Log");
+        System.out.println("4. Power");
 
-            scanner.close();
+        int operator = scanner.nextInt();
+        double x = scanner.nextDouble();
+
+        switch (operator) {
+            case 1:
+                System.out.println(calculator.sqrt(x));
+                break;
+
+            case 2:
+                System.out.println(calculator.factorial(x));
+                break;
+
+            case 3:
+                System.out.println(calculator.ln(x));
+                break;
+
+            case 4:
+                double b = scanner.nextDouble();
+                System.out.println(calculator.power(x, b));
+                break;
+
+            default:
+                System.out.println("Invalid operator");
         }
     }
+}
 }

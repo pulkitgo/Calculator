@@ -32,6 +32,7 @@ public class Main {
     public static void main(String[] args) {
         Main calculator = new Main();
         Scanner scanner = new Scanner(System.in);
+        for(int i=0;i<100000000;i++)continue;
         System.out.println("Choose the operator:");
         System.out.println("1. Square Root");
         System.out.println("2. Factorial");

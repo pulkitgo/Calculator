@@ -37,6 +37,7 @@ public class Main {
         System.out.println("2. Factorial");
         System.out.println("3. Natural Log");
         System.out.println("4. Power");
+
         int operator = scanner.nextInt();
         double x = scanner.nextDouble();
         switch (operator) {

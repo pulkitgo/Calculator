@@ -5,7 +5,8 @@ pipeline {
         stage('Clone Repository') {
             steps {
 
-                git branch: 'main', url: 'git@github.com:pulkitgo/Calculator.git'
+                git branch: 'main',
+                url: 'git@github.com:pulkitgo/Calculator.git'
             }
             post {
                 failure {

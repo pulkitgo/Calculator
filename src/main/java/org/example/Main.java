@@ -1,10 +1,8 @@
-
-//email trigger test comment
-
-//email trigger test comment 2
 package org.example;
+import java.util.Scanner;
 public class Main
 {
+
     public double sqrt ( double x){
         return Math.sqrt(x);
     }
@@ -28,9 +26,32 @@ public class Main
     public static void main(String[] args)
     {
         Main calculator = new Main();
-        System.out.println("sqrt(16) = " + calculator.sqrt(16));
-        System.out.println("factorial(5) = " + calculator.factorial(5));
-        System.out.println("ln(10) = " + calculator.ln(10));
-        System.out.println("power(2,3) = " + calculator.power(2,3));
+        System.out.println("Choose the operator:");
+        System.out.println("1. Square Root");
+        System.out.println("2. Factorial");
+        System.out.println("3. Natural Log");
+        System.out.println("4. Power");
+        Scanner scanner = new Scanner(System.in);
+        int operator = scanner.nextInt();
+        double x = scanner.nextDouble();
+        switch(operator)
+        {
+            case operator==1 :
+                System.out.println(calculator.sqrt(x));
+                break;
+            case operator==2:
+                System.out.println(calculator.factorial(x));
+                break;
+            case operator==3:
+                System.out.println(calculator.ln(x));
+                break;
+            case operator==4:
+                double b = scanner.nextDouble();
+                System.out.println(calculator.power(x, b));
+                break;
+            default:
+                System.out.println("Invalid operator");
+                break;
+        }
     }
 }

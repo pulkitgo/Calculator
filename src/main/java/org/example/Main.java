@@ -1,14 +1,16 @@
 package org.example;
-import java.util.Scanner;
-public class Main
-{
 
-    public double sqrt ( double x){
+import java.util.Scanner;
+
+public class Main {
+
+    public double sqrt(double x) {
         return Math.sqrt(x);
     }
 
-    public double factorial ( double x){
-        if (x < 0) throw new IllegalArgumentException("Negative not allowed");
+    public double factorial(double x) {
+        if (x < 0)
+            throw new IllegalArgumentException("Negative not allowed");
 
         long res = 1;
         for (int i = 2; i <= x; i++) {
@@ -16,15 +18,18 @@ public class Main
         }
         return res;
     }
-    public double ln ( double x){
-        if (x <= 0) throw new IllegalArgumentException("x must be positive");
+
+    public double ln(double x) {
+        if (x <= 0)
+            throw new IllegalArgumentException("x must be positive");
         return Math.log(x);
     }
-    public double power ( double x, double b){
+
+    public double power(double x, double b) {
         return Math.pow(x, b);
     }
-    public static void main(String[] args)
-    {
+
+    public static void main(String[] args) {
         Main calculator = new Main();
         System.out.println("Choose the operator:");
         System.out.println("1. Square Root");
@@ -34,18 +39,17 @@ public class Main
         Scanner scanner = new Scanner(System.in);
         int operator = scanner.nextInt();
         double x = scanner.nextDouble();
-        switch(operator)
-        {
-            case operator==1 :
+        switch (operator) {
+            case 1:
                 System.out.println(calculator.sqrt(x));
                 break;
-            case operator==2:
+            case 2:
                 System.out.println(calculator.factorial(x));
                 break;
-            case operator==3:
+            case 3:
                 System.out.println(calculator.ln(x));
                 break;
-            case operator==4:
+            case 4:
                 double b = scanner.nextDouble();
                 System.out.println(calculator.power(x, b));
                 break;

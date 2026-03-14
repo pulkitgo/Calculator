@@ -30,16 +30,12 @@ public class Main {
     }
 //
     public static void main(String[] args) {
-        try {
-            Thread.sleep(5000);
-        } catch (InterruptedException e) {}
         Main calculator = new Main();
         System.out.println("Choose the operator:");
         System.out.println("1. Square Root");
         System.out.println("2. Factorial");
         System.out.println("3. Natural Log");
         System.out.println("4. Power");
-        System.out.flush();
         Scanner scanner = new Scanner(System.in);
         int operator = scanner.nextInt();
         double x = scanner.nextDouble();

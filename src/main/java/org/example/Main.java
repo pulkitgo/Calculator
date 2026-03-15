@@ -18,7 +18,7 @@ public class Main {
         }
         return res;
     }
-
+//
     public double ln(double x) {
         if (x <= 0)
             throw new IllegalArgumentException("x must be positive");
